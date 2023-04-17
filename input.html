@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+<h1>INPUT YOUR DATA</h1>
+<P>To give your information below</P>
+<fieldset> 
+<legend>Personal Details:</legend>
+<label for="fname">Firstname</label>
+<input type="text" id="name" value="name"><br><br>
+<label for="lname">Lastname</label>   
+<input type="text" id="name" value="name"><br><br>
+<!--input for name/text-->
+<lable for="gender">Gender:</lable>    <input type="radio" id="male" name="gender" value="male">  <lable for="male">Male</lable>  <input type="radio" id="female" name="gender" value="female"> <lable for="female">Female</lable>  <input type="radio" id="transgenders" name="gender" value="transgenders"> <lable for="others">Transgenders</lable><br>  
+<!--input for radio buttons--> 
+<br>
+<lable for="birthday">Date of Birth:</lable>
+<input type="date" id="birthday" name="birthday"><br>
+<!--input for date-->
+<br>
+<lable for="mail">E-mail:</lable>
+<input type="email" id="mail" name="mail"><br>
+<!--input for email-->
+<br>
+<lable for="marital">Marital status:</lable><br>
+<lable for="single">single</lable>
+<input type="checkbox" id="maritalstatus" name="maritalstatus" value="single">
+<br>
+<lable for="married">Married</lable>
+<input type="checkbox" id="maritalstatus" name="maritalstatus" value="married">
+<!--input for checkbox-->
+<br><br>
+<label for="address">Residency:</label>
+<!--input for address-->
+<br><br>
+<label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000"><br>
+  <!--input for color-->
+  <br>
+  <label for="birthdaytime">Birthday (date and time):</label>
+ <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+ <input type="submit">
+ <!--input for dateandtime-local-->
+ <br><br>
+ <label for="myfile">select a file:</label>
+ <input type="file" id="myfile" name="myfile"><br>
+ <input type="submit"><!--input for file-->
+ <br><br>
+ <label for="myfile">select files:</label>
+<input type="file" id="myfile" name="myfile" multiple > <br>
+<input type="submit"><!--input for files--><br>
+<br>
+<lable for="fname">Firstname:</lable>
+<input type="text" id="fname" name="fname"><br><br>
+<input type="hidden" id="custId" name="custId" value="345345">
+<input type="submit">
+<!--input for hidden--><br><br>
+  <label for="fname">First name: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name: </label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+  <!--input for image-->
+  <br><br>
+<label for="bdaymonth">Birthday (month and year):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+  <input type="submit">
+  <!--input for month--><br><br>
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+  <input type="submit"><br><br>
+  <!--input for number-->
+   <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="pwd">Password:</label>
+  <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+  <input type="submit"><br><br>
+  <!--input for email-->
+  <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+  <input type="submit">
+  <input type="reset"><br><br>
+  <!--input for range-->
+  <label for="gsearch">Search Google:</label>
+  <input type="search" id="gsearch" name="gsearch">
+  <input type="submit"><br><br>
+  <!--inpur doe search-->
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <small>Format: 123-45-678</small><br><br>
+  <input type="submit"><br><br>
+<label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage"><br><br>
+  <input type="submit"><br><br>
+  <!--input for url-->  
+<label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+  <input type="submit">
+  <!--input for week--><br>
+  <br><label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+  <input type="submit">
+</fieldset>
+</body>
+</html>
